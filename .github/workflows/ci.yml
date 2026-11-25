@@ -10,8 +10,7 @@ jobs:
           go-version: '1.25'
       - name: Clone pinned upstream
         run: |
-          # TODO(发布前填写):换成真实上游地址与 tag
-          git clone --depth 1 --branch 1.7.17 https://github.com/CHANGE_ME/CyberStrikeAI.git /tmp/base
+          git clone --depth 1 --branch 1.7.17 https://github.com/AIPentest/CyberStrikeAI.git /tmp/base
       - name: Apply zhulong
         run: bash scripts/apply.sh /tmp/base
       - name: Build

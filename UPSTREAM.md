@@ -5,7 +5,7 @@
 | 项 | 值 |
 |---|---|
 | 上游项目 | CyberStrikeAI |
-| 上游仓库 | `<TODO: https://github.com/<org>/CyberStrikeAI>` |
+| 上游仓库 | `https://github.com/AIPentest/CyberStrikeAI` |
 | 基线版本 | `1.7.17` |
 | 基线 commit | `7d2201c`（打包方现役 HEAD，对应 20261110 构建） |
 | 布局要求 | `loop2`（eino2）布局；`internal/multiagent` 旧布局不适用 |
