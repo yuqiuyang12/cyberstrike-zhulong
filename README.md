@@ -75,3 +75,9 @@ scripts/                       apply / verify / prepublish-check / regen-patches
 ## 许可
 
 Apache-2.0（与上游一致）。衍生分发请保留 `LICENSE` 与 `NOTICE`。
+
+---
+
+**作者**：yuqiuyang12（大四 · 找工作中）  
+**联系**：1850493807@qq.com  
+如果这个项目对你有帮助，欢迎来信交流。
