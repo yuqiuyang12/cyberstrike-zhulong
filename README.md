@@ -1,7 +1,7 @@
 # 烛龙(Zhulong) · eino2 loop——CyberStrikeAI 的利用链闭环增强包
 
-> **eino → eino2：从"跑一次就停"到"链没清零不许交卷"。**
-> CyberStrikeAI 自带 `eino` 单代理 runner——跑一次就交卷，漏洞停在"确认"。
+> **eino → eino2：从"跑一轮就停"到"链没清零不许交卷"。**
+> CyberStrikeAI 自带 `eino` 单代理 runner——跑一轮就交卷，漏洞停在"确认"。
 > 烛龙把它升级成 `eino2` loop 模式：**eino2 = 烛龙，烛龙 = eino2。**
 > 每个中高危漏洞自动开链，open 链没清零，就不许交卷。
 
