@@ -5,8 +5,7 @@
 | 路径 | 说明 |
 |---|---|
 | `src/internal/zhulong/*.go` | 引擎 27 文件(12 核心 + 15 测试) |
-| `src/internal/loop2/zhulong_orchestrator.go` | 一轮闭环编排(状态回注 / 工具驱动 / 收口) |
-| `src/internal/loop2/zhulong_budget.go` | 步数 + 墙钟预算、预算耗尽判定 |
+| `src/internal/loop2/` | **eino2 loop 引擎全量代码**(runner / eino_single_runner / eino_adk_run_loop / eino_turn_loop_* / eino_middleware / eino_summarize / eino_model_resilience / eino_skills / orchestration 等 216 文件) |
 | `src/internal/app/chain_tools.go` | `zl_chain_open/attempt/close/list` 四个内置工具 |
 | `schema/zhulong.sql` | `zl_chains`、`zl_chain_attempts` 两表 + `conversations` 三列 |
 | `config/zhulong.example.yaml` | `multi_agent.zhulong` 配置样例 |

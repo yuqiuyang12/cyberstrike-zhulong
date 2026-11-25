@@ -41,7 +41,7 @@ bash /path/to/zhulong/scripts/verify.sh .             # 静态检查接线是否
 
 ```
 src/internal/zhulong/          引擎(27 文件,零平台依赖,可单独 go test)
-src/internal/loop2/            编排器 + 预算闸
+src/internal/loop2/            eino2 loop 引擎全量代码(216 文件: runner / eino_single_runner / eino_adk_run_loop / eino_turn_loop_* / eino_middleware / eino_summarize / eino_model_resilience / eino_skills / orchestration 等)
 src/internal/app/chain_tools.go  zl_chain_* 四工具
 schema/zhulong.sql             zl 两表 + conversations 三列
 config/zhulong.example.yaml    multi_agent.zhulong 配置样例
