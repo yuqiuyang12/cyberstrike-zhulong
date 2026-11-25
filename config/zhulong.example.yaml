@@ -1,0 +1,11 @@
+# 合入你的 config.yaml(顶层 multi_agent 下)。未列出的键保持原样。
+multi_agent:
+  zhulong:
+    enabled: true                 # 总开关
+    step_budget: 400              # 单轮工具步数上限
+    minute_budget: 60             # 单轮墙钟上限(分钟)
+    min_minute_budget: 30         # 单轮最短(分钟):未达标且未真打完 → 打回 continue
+    auto_continue: true           # 自动续轮总闸(仍需会话级 unattended_mode=1)
+    auto_continue_interval_min: 5 # 两轮最小间隔(分钟)
+    max_rounds: 18                # 单次勾选的轮数预算(关→开重置)
+    hold_continue_until_min: true # 未达最短时长时优先 continue

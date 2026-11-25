@@ -1,0 +1,10 @@
+Zhulong (烛龙)
+Copyright (c) 2026 <作者/组织:发布前填写>
+
+This distribution contains modules originally developed for, and designed to be
+applied on top of, CyberStrikeAI (Apache License 2.0).
+
+- Upstream project: CyberStrikeAI (see UPSTREAM.md for the pinned baseline)
+- The files under src/ are original work of the Zhulong authors unless otherwise noted.
+- Modifications relative to the upstream baseline are documented in MANIFEST.md
+  and hooks/ANCHORS.md.
